@@ -1,0 +1,23 @@
+CIPHER LOGIC
+------------------------------------------------------------------------------------------------------------------------------------
+Cipher that splits alphabet in half (A to M & N to Z). 
+
+ABCDEFGHIJKLM | NOPQRSTUVWXYZ
+
+
+Two numbers precede letters. The first number indicates which half of the alphabet the letter is located in: 1 indicates A-M and 2 indicates N-Z. Also, the first half of the alphabet reads from M towards A (right to left) and the second half reads from N towards Z (left to right).
+The second number indicates how many shifts. The same shift number can be used for letters on the same half of the alphabet; however, if the next letter in the sequence occurs on the opposite half, then the side and shift numbers will be noted again. EXAMPLE: "my" = 10m23v. 'm' and 'y' are on opposite halves, so the side and shift had to be noted again.
+
+If there are too many shifts for a specific letter, then side and shift numbers will be noted again. EXAMPLE: "brook" = 15g25n21nn12m. Even though 'r' and 'o' are on the same side, the number of shifts for 'r' (5) was too many for 'o', so side and shift had to be noted again.
+
+ABCDEFGHIJKLM | NOPQRSTUVWXYZ
+        l<--r | l-->r
+
+
+
+CIPHERED/DECIPHERED PHRASE
+------------------------------------------------------------------------------------------------------------------------------------
+
+Ciphered: "I love cryptography!" = 14m 11m21nu12g 18k22pwnr21n11h23o13d21o15m29p!
+
+Deciphered: 14m 11m21nu12g 18k22pwnr21n11h23o13d21o15m29p! = I love cryptography!

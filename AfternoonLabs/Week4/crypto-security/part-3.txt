@@ -1,0 +1,7 @@
+Yahoo! Breach in 2013
+
+The Yahoo! Breach in 2013 led to data theft of 1 billion user accounts. This data included names, email addresses, phone numbers, birthdays, and hashed passwords. Yahoo! claims no credit card information was stolen. Yahoo! also mentioned a second breach where a hacker figured out how to forge cookies which allowed them to access an account without passwords.
+
+The cause for the breach was an outdated hash generator called MD5. MD5 was known as a weak hashing generator by hackers and security experts and in 2008 Carnegie Mellon University released a statement informing companies that MD5 should no longer be used. Yahoo! either refused to switch over to a new hash generator or didn't switch over fast enough to avoid the breach. According to Yahoo!'s security team, they were denied new tech that would improve the site's security due to monetary cost. 
+
+Since the breach, the company forced all users to change their passwords, invalidated old security questions and answers, set up 2-step verification, and invalidated the forged cookies, so they cannot be used again.
